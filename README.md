@@ -6,7 +6,7 @@
 <p align="center">
   <a href="http://www.youtube.com/watch?v=w-lueXyo7WE">
     <img src="http://img.youtube.com/vi/w-lueXyo7WE/0.jpg" alt="Pure Blur Intro">
-  </a>
+  </a><br><br>
   Youtube link
 </p>
 
