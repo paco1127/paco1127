@@ -6,8 +6,7 @@
 <p align="center">
   <a href="http://www.youtube.com/watch?v=w-lueXyo7WE">
     <img src="http://img.youtube.com/vi/w-lueXyo7WE/0.jpg" alt="Pure Blur Intro">
-  </a><br><br>
-  Youtube link
+  </a><br>
 </p>
 
 <h3 align="center">Languages and Tools:</h3>
