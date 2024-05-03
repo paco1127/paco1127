@@ -2,7 +2,7 @@
 <h3 align="center">A passionate software developer from Hong Kong</h3>
 
 <h3 align="center">🔭 I’m currently working on [Pure Blur](https://github.com/paco1127/Pure-Blur)</h3>
-[![Link to video](http://img.youtube.com/vi/lueXyo7WE/0.jpg)](http://www.youtube.com/watch?v=lueXyo7WE)
+[![Pure Blur Intro](http://img.youtube.com/vi/lueXyo7WE/0.jpg)](http://www.youtube.com/watch?v=lueXyo7WE "Pure Blur Intro")
 
 
 <h3 align="center">Languages and Tools:</h3>
