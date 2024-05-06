@@ -27,7 +27,7 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=paco1127&label=Profile%20Views&pretty=false)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=paco1127&label=Views&color=ff69b4)]
 
   ## 💰 You can help me by Donating
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/paco1127) 
