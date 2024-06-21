@@ -12,15 +12,7 @@
 
 # About Paco Chung
 
-<script>
-  function showAlert() {
-    alert('Hello, this is an alert!');
-  }
-</script>
-
-<button onclick="showAlert()">Click me</button>
-
-
+![](aboutme.gif)
 
 
 ## 🌐 Socials:
