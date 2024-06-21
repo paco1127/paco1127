@@ -12,134 +12,13 @@
 
 # About Paco Chung
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Paco Chung</title>
-    <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #2d2d2d;
-            color: #f8f8f2;
-            padding: 20px;
-        }
-        .code-container {
-            white-space: pre;
-            overflow: hidden;
-            border-right: .15em solid orange;
-            width: 30ch;
-            animation: caret 1s steps(1) infinite;
-        }
-        @keyframes caret {
-            50% {
-                border-color: transparent;
-            }
-        }
-    </style>
-</head>
-<body>
-
-<div class="code-container" id="codeDisplay"></div>
-
 <script>
-    const pythonCode = `
-def personal_info():
-    info = {
-        "name": "Paco Chung",
-        "linkedin": "https://www.linkedin.com/in/paco-chung-11719827b/",
-        "profession": "Software Developer",
-        "skills": ["Python", "Java", "JavaScript", "C++", "SQL"],
-        "achievements": ["Developed multiple high-traffic web applications", "Led a team in successful project completions", "Published articles on software development best practices"]
-    }
-    return info
-
-print(personal_info())
-`;
-
-    const javaCode = `
-import java.util.ArrayList;
-import java.util.HashMap;
-
-public class PersonalInfo {
-    public static HashMap<String, Object> getPersonalInfo() {
-        HashMap<String, Object> info = new HashMap<>();
-
-        info.put("name", "Paco Chung");
-        info.put("linkedin", "https://www.linkedin.com/in/paco-chung-11719827b/");
-        info.put("profession", "Software Developer");
-
-        ArrayList<String> skills = new ArrayList<>();
-        skills.add("Python");
-        skills.add("Java");
-        skills.add("JavaScript");
-        skills.add("C++");
-        skills.add("SQL");
-        info.put("skills", skills);
-
-        ArrayList<String> achievements = new ArrayList<>();
-        achievements.add("Developed multiple high-traffic web applications");
-        achievements.add("Led a team in successful project completions");
-        achievements.add("Published articles on software development best practices");
-        info.put("achievements", achievements);
-
-        return info;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(getPersonalInfo());
-    }
-}
-`;
-
-    const jsCode = `
-function getPersonalInfo() {
-    return {
-        name: "Paco Chung",
-        linkedin: "https://www.linkedin.com/in/paco-chung-11719827b/",
-        profession: "Software Developer",
-        skills: ["Python", "Java", "JavaScript", "C++", "SQL"],
-        achievements: ["Developed multiple high-traffic web applications", "Led a team in successful project completions", "Published articles on software development best practices"]
-    };
-}
-
-console.log(getPersonalInfo());
-`;
-
-    const codes = [pythonCode, javaCode, jsCode];
-    let codeIndex = 0;
-    let charIndex = 0;
-    const speed = 50; // typing speed in milliseconds
-
-    function typeCode() {
-        if (charIndex < codes[codeIndex].length) {
-            document.getElementById("codeDisplay").innerText += codes[codeIndex].charAt(charIndex);
-            charIndex++;
-            setTimeout(typeCode, speed);
-        } else {
-            setTimeout(deleteCode, 1000); // wait 1 second before deleting
-        }
-    }
-
-    function deleteCode() {
-        if (charIndex > 0) {
-            document.getElementById("codeDisplay").innerText = codes[codeIndex].substring(0, charIndex - 1);
-            charIndex--;
-            setTimeout(deleteCode, speed);
-        } else {
-            codeIndex = (codeIndex + 1) % codes.length;
-            setTimeout(typeCode, 500); // wait 0.5 second before typing next code
-        }
-    }
-
-    typeCode(); // start the typewriter effect
+  function showAlert() {
+    alert('Hello, this is an alert!');
+  }
 </script>
 
-</body>
-</html>
-```
+<button onclick="showAlert()">Click me</button>
 
 
 
