@@ -11,7 +11,15 @@
 </p>
 
 # About Paco Chung
-  <style>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Paco Chung</title>
+    <style>
         body {
             font-family: 'Courier New', Courier, monospace;
             background-color: #2d2d2d;
@@ -31,6 +39,8 @@
             }
         }
     </style>
+</head>
+<body>
 
 <div class="code-container" id="codeDisplay"></div>
 
@@ -42,7 +52,7 @@ def personal_info():
         "linkedin": "https://www.linkedin.com/in/paco-chung-11719827b/",
         "profession": "Software Developer",
         "skills": ["Python", "Java", "JavaScript", "C++", "SQL"],
-        "achievements": ["Awarded with 2 Scholarships", "Won Silver award on project"]
+        "achievements": ["Developed multiple high-traffic web applications", "Led a team in successful project completions", "Published articles on software development best practices"]
     }
     return info
 
@@ -70,9 +80,9 @@ public class PersonalInfo {
         info.put("skills", skills);
 
         ArrayList<String> achievements = new ArrayList<>();
-        achievements.add("Awarded with 2 Scholarships");
-        achievements.add("Won Silver award on project");
-
+        achievements.add("Developed multiple high-traffic web applications");
+        achievements.add("Led a team in successful project completions");
+        achievements.add("Published articles on software development best practices");
         info.put("achievements", achievements);
 
         return info;
@@ -91,7 +101,7 @@ function getPersonalInfo() {
         linkedin: "https://www.linkedin.com/in/paco-chung-11719827b/",
         profession: "Software Developer",
         skills: ["Python", "Java", "JavaScript", "C++", "SQL"],
-        achievements: ["Awarded with 2 Scholarships", "Won Silver award on project"]
+        achievements: ["Developed multiple high-traffic web applications", "Led a team in successful project completions", "Published articles on software development best practices"]
     };
 }
 
@@ -126,6 +136,10 @@ console.log(getPersonalInfo());
 
     typeCode(); // start the typewriter effect
 </script>
+
+</body>
+</html>
+```
 
 
 
