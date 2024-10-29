@@ -12,7 +12,7 @@
 
 # About me
 
-![](aboutme.gif)
+
 
 
 ## 🌐 Socials:
