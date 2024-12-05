@@ -3,12 +3,8 @@
 
 
 # 💫 Currently:
-🔭 I’m currently working on <a href="https://github.com/paco1127/Pure-Blur" target="_blank">Pure Blur</a></h3>
-<p align="center">
-  <a href="http://www.youtube.com/watch?v=w-lueXyo7WE">
-    <img src="http://img.youtube.com/vi/w-lueXyo7WE/0.jpg" alt="Pure Blur Intro">
-  </a><br>
-</p>
+# 🔭 I’m currently studying on <a href="https://www.polyu.edu.hk/" target="_blank">PolyU</a>
+# 🔭 I'm also a member for the <a href="https://polyuctf.com/" target="_blank">NuttyShell</a> CTF team 
 
 # About me
 ![](aboutme.gif)
