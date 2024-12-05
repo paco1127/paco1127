@@ -3,8 +3,8 @@
 
 
 # 💫 Currently:
-# 🔭 I’m currently studying on <a href="https://www.polyu.edu.hk/" target="_blank">PolyU</a>
-# 🔭 I'm also a member for the <a href="https://polyuctf.com/" target="_blank">NuttyShell</a> CTF team 
+### 🔭 I’m currently studying on <a href="https://www.polyu.edu.hk/" target="_blank">PolyU</a>
+### 🔭 I'm also a member for the <a href="https://polyuctf.com/" target="_blank">NuttyShell</a> CTF team 
 
 # About me
 ![](aboutme.gif)
