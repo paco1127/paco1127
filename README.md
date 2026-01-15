@@ -21,9 +21,12 @@
 ![Profile details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=paco1127&theme=github_dark)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=paco1127&theme=gotham&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=paco1127&theme=radical&rank=SSS,SS,S,AAA,AA,A&no-frame=true&no-bg=false&margin-w=4)
-
+## 🐍 GitHub Contribution Sanke
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
